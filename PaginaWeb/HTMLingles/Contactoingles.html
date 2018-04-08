@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Contacta con Nosotros</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/CSS.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/formu.css">
+		<link rel="icon" type="image/png" href="Imagenes/tierra.png"/>
+	</head>
+	<body>
+		<!-- CONTACT US -->
+		<div id="contenedor">
+			<header>
+				<h1 id="titulo">Save The Plants</h1>
+				<img src="../Imagenes/logo.png" alt="logotipo" width="100px" height="100px" id="logo"/>			
+				<div id="Idioma">
+					<a href="../HTMLespañol/contactoespañol.html"/><img src="../Imagenes/espana.png" alt="idiomaSpain" width="20px" height="20px" id="idiomaSpain"></a>
+					<a href="../HTMLingles/contactoingles.html"/><img src="../Imagenes/ingles.png" alt="idiomaIngles" width="20px" height="20px" id="idiomaIngles"></a>
+				</div>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="homeingles.html">Home</a></li>
+					<li><a href="Tema1ingles.html">The coast</a></li>
+					<li><a href="Tema2ingles.html">Festivals</a></li>
+					<li><a href="Tema3ingles.html">Gastronomy</a></li>
+					<li><a href="Imagenesingles.html">Galery</a></li>
+					<li><a href="Sobrenosotrosingles.html">About us</a></li>
+					<li><a href="Contactoingles.html" class="active">Contact</a></li>
+				</ul>
+			</nav>
+			<section>
+				<div id="Formulario"">
+					<legend id="formTitulo">Contact Form</legend>
+					<p id="info">If you want contact with us, fill this form.</p>
+						<form action="mailto: SaveThePlants@gmail.com" method="post">
+							<fieldset><legend id="GrupoForm">Personal info:</legend>
+								<label>Name:</label><br/><input type="text" placeholder="Name"/><br/>
+								<label>Surname:</label><br/><input type="text" placeholder="Surname"/><br/>
+								<label>Phone:</label><br/><input type="text" placeholder="****"/><br/>
+								<label>Birth Date:</label><br/><input type="date" step="1" max="2017-11-21" min="1900-01-01"><br/>
+								<label>E-Mail:</label><br/><input type="E-Mail" placeholder="ex:gmail"/><br/>
+								<label>Location:</label><br/><input type="type" placeholder="ex:Santa Fe"/><br/>
+												<label>Country:</label><br/>
+															<select>
+																<option>Spain</option>
+																<option>United Kingdon</option>
+																<option>Germany</option>
+																<option>France</option>
+																<option>Irland</option>
+																<option>Italy</option>
+																<option>United States</option>
+																<option>Other country</option>
+															</select><br/>
+								<label>Browser:</label><br/><input list="browser">
+															<datalist id="browser">
+																<option value="Microsoft Edge">
+																<option value="Safari">
+																<option value="Chrome">
+																<option value="Internet Explorere">
+																<option value="Firefox">
+																<option value="Opera">
+																<option value="Other">
+															</datalist><br/>
+							</fieldset>
+							<fieldset><legend id="GrupoForm">Feedback:</legend>
+								<label>The information been has useful?:</label><br/>
+												<input type="radio" name="Encuesta" id="si" checked="checked"/><label for="si">Yes</label><br/>
+												<input type="radio" name="Encuesta" id="no"><label for="no">No</label><br/>
+								<label>How can we improve?</label><br/><textarea id="Mejoras"></textarea><br/>
+								<label for="utilizar">Can we use your personal info to improve the page?:</label><input type="checkbox" id="utilizar" checked="checked"/><br/>
+							</fieldset>
+							<fieldset><legend id="GrupoForm">Send and reset:</legend>
+								<input type="submit" id="Envio" value="Send form" />
+								<input type="reset" id="resetear" value="Reset"/>
+							</fieldset>
+				</div>
+			</section>
+			<aside>
+				<h2>Other Pages</h2>
+					<a id="enlaces" href="http://sierranevada.es">Sierra Nevada y Sky Resort</a>
+  					<p>Do not miss the incredible offers in the official</p>
+  					<a id="enlaces" href="https://www.alhambradegranada.org">La Alhambra</a>
+  					<p>in this page you can inform yourself about the famous Alhambra and visit it, if you want to.</p>
+			</aside>
+			<footer>
+				<div id="contacta">
+					<h2>CONTACT WITH US</h2>
+					<p>Email: SaveThePlants@gmail.com</p>
+					<p>Or contact with us in the 206 class</p>
+				</div>
+				<div id="sobrenosotros">
+					<h2>ABOUT US</h2>
+					<p>We are a group of classmates with enthusiasm and desire to improve</p>
+					<p>Copyright 2018 SaveThePlants.com</p>
+					<img src="../Imagenes/logo.png" alt="logotipo" width="100px" height="100px" id="logo2"/>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
